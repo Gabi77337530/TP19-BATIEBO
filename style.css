@@ -83,6 +83,14 @@ color: var(--green);
      justify-content: center;
      
 } */
+.btn2{
+     margin-top: 100px;
+}
+.btn3{
+     
+     margin-top: 100px;
+     
+}
 button{
      padding: 10px 30px;
      color: white;
@@ -96,6 +104,7 @@ button{
 }
 
 .section1{
+     
      margin: 20px;
 }
 .section1 .container{
@@ -117,14 +126,16 @@ button{
 .section-1 .container .right h3{
 
 }
-.section2{
+.bonde2{
+     display: none;
      margin: 20px;
 }
 .section2 .container{
 display: flex;
 justify-content: center;
 }
-.section3{
+.bonde3{
+     display: none;
      margin: 20px;
 }
 .section3 .container{
