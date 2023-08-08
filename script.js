@@ -39,3 +39,35 @@ active3.addEventListener("click", () =>{
      bonde2.style.display ="none";
      bonde3.style.display ="block";
 })
+
+const btn = document.querySelector(".Forward");
+Forward.addEventListener("click", () => {
+     bonde.style.display="none";
+     bonde2.style.display="block";
+     bonde3.style.display="none";
+});
+
+const Backward=document.querySelector(".Backward");
+Backward.addEventListener("click", () =>{
+     bonde.style.display="block";
+     bonde2.style.display="none";
+     bonde3.style.display="none";
+});
+const Nextward=document.querySelector(".Nextward");
+Nextward.addEventListener("click", () =>{
+     bonde.style.display="none";
+     bonde2.style.display="none";
+     bonde3.style.display="block";
+});
+const Backward3=document.querySelector(".Backward3");
+Backward3.addEventListener("click", () =>{
+     bonde.style.display="none";
+     bonde2.style.display="block";
+     bonde3.style.display="none";
+});
+const Nextward3=document.querySelector(".Nextward3");
+Nextward3.addEventListener("click", () =>{
+     bonde.style.display="";
+     bonde2.style.display="";
+     bonde3.style.display="";
+});
